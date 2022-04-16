@@ -283,28 +283,26 @@ class _IMDBListState extends State<IMDBList> {
                         backgroundColor: Colors.green,
                         onSelected: (bool value) {},
                       ),
-
                       InputChip(
                         //avatar: Icon(Icons.list),
                         label: Text(trendingMovies[index]['title']),
                         backgroundColor: primary,
                         onSelected: (bool value) {},
                       ),
-
-                      // FlatButton(
-                      //   textColor: const Color(0xFF6200EE),
-                      //   onPressed: () {
-                      //     // Perform some action
-                      //   },
-                      //   child: const Text('ACTION 1'),
-                      // ),
-                      // FlatButton(
-                      //   textColor: const Color(0xFF6200EE),
-                      //   onPressed: () {
-                      //     // Perform some action
-                      //   },
-                      //   child: const Text('ACTION 2'),
-                      // ),
+                      FlatButton(
+                        textColor: const Color(0xFF6200EE),
+                        onPressed: () {
+                          // Perform some action
+                        },
+                        child: const Text('ACTION 1'),
+                      ),
+                      FlatButton(
+                        textColor: const Color(0xFF6200EE),
+                        onPressed: () {
+                          // Perform some action
+                        },
+                        child: const Text('ACTION 2'),
+                      ),
                     ],
                   ),
                 ],
